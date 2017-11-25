@@ -1,2 +1,6 @@
 # SteakPE
-SteakPE | Can Be Used For Factions, KitPvP, Or WhatEver You Want It To Be For!
+Receive Steak Easily With /steak
+
+Lots Of Help By @uselesswaifu
+
+**This Plugin Can Be Used By Anyone.**
