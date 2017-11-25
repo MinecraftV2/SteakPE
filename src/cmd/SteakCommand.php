@@ -1,5 +1,6 @@
 <?php 
-namespace SteakPE\cmd;
+namespace 	src/SteakPE/cmd/SteakCommand.php;
+
 use pocketmine\Player;
 use pocketmine\utils\TextFormat as C;
 use pocketmine\command\Command;
