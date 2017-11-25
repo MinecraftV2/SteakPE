@@ -7,7 +7,8 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\command\defaults\VanillaCommand;
 use SteakPE\Main;
-class SteakCommand extends PluginBase {
+
+class SteakCommand extends VanillaCommand {
     
   private $plugin;
   public function __construct(Main $plugin){
