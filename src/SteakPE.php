@@ -27,7 +27,6 @@ public function onCommand(CommandSender $sender,Command $cmd,$label,array $args)
 		if($cmd->getName() == "steak"){
      $sender->getInventory()->addItem(Item::get(364,0,2));
 	 $sender->sendMessage(TextFormat::BOLD."You have just recieved 64 steak!");
-if($cmd->getName() == "steak"){
      if(!$sender instanceof Player){
           $sender->sendMessage("This Command Only Works for players! Please perform this command IN GAME!");
      }else{
