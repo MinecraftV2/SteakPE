@@ -10,7 +10,7 @@ use pocketmine\Server;
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
-class SteakPE extends PluginBase implements Listener{
+class Main extends PluginBase implements Listener{
 public function onLoad () {
 	$this->getLogger () ->info ("SteakPE Loading") ;
 }
