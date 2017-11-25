@@ -1,6 +1,6 @@
 <?php
 
-namespace OhhhAlex/SteakPE
+namespace SteakPE
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
