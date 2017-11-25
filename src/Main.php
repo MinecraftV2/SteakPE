@@ -11,14 +11,17 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 
 class Main extends PluginBase implements Listener{
-public function onLoad () {
+public function onLoad ()
+{
 	$this->getLogger () ->info ("SteakPE Loading") ;
 }
-public function onEnable () {
+public function onEnable ()
+{
     $this->getServer ()  ->getPluginManager () ->registerEvents ($this,$this);
 	$this->getLogger () ->info ("SteakPE Enabled") ;	
 }
-public function onDisable () {
+public function onDisable ()
+{
 	$this->getLogger () ->info ("SteakPE Disabled") ;
 }
 public function onCommand(CommandSender $sender,Command $cmd,$label,array $args) {
