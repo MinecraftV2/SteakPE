@@ -1,5 +1,5 @@
 name: SteakPE
-main: Main
+main: SteakPE/Main
 api: 3.0.0-ALPHA9
 version: 0.1
 author: OhhhAlex
